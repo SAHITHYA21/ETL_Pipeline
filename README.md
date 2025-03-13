@@ -17,6 +17,10 @@ This project demonstrates an **ELT (Extract, Load, Transform) pipeline** using *
 - **Python**: Scripting and automation.
 - **Docker** (optional): Containerization for deployment.
 
+## Airflow DAG
+![image](https://github.com/user-attachments/assets/fbce74df-035c-40cc-bfab-566addd751aa)
+
+
 ## Architecture
 ```mermaid
 graph TD;
