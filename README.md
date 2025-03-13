@@ -94,6 +94,7 @@ airflow webserver & airflow scheduler
 - Trigger DAGs manually or schedule them as needed.
 
 ## Folder Structure
+```
 ELT_Pipeline/
 │── dags/                     # Airflow DAGs
 │── dbt/
@@ -103,7 +104,7 @@ ELT_Pipeline/
 │── Dockerfile                # Optional Docker setup
 │── requirements.txt          # Python dependencies
 │── README.md                 # Documentation
-
+```
 ## Docker Deployment
 If you prefer to use Docker for containerized deployment, ensure Docker is installed and run the following commands:
 ```sh
