@@ -1,17 +1,17 @@
 # ELT Pipeline with dbt, Snowflake, and Airflow
 
 ## Overview
-This project demonstrates an **ELT (Extract, Load, Transform) pipeline** using **dbt (Data Build Tool), Snowflake (Cloud Data Warehouse), and Apache Airflow (Workflow Orchestration)**. The pipeline extracts data from a source, loads it into Snowflake, and transforms it using dbt.
+This project demonstrates an **ELT (Extract, Load, Transform) pipeline** using **dbt (Data Build Tool), Snowflake (Cloud Data Warehouse), and Apache Airflow (Workflow Orchestration)**. The pipeline extracts data from **Snowflake's TPC-H sample dataset (tpch_sf1)**, loads it into Snowflake, and transforms it using dbt.
 
 ## Features
-- **Data Extraction**: Extracts data from a raw source.
+- **Data Extraction**: Extracts data from **Snowflake's TPC-H sample dataset (tpch_sf1)**.
 - **Loading into Snowflake**: Uses Snowflake as the cloud data warehouse.
-- **Data Transformation**: Utilizes dbt for transformations.
+- **Data Transformation**: Utilizes dbt for transformations of the TPC-H dataset.
 - **Orchestration with Airflow**: Automates and schedules the pipeline.
 - **Modular and Scalable**: Easily adaptable for different datasets and transformations.
 
 ## Technologies Used
-- **Snowflake**: Cloud-based data warehouse.
+- **Snowflake**: Cloud-based data warehouse with TPC-H sample dataset (tpch_sf1)..
 - **dbt**: Transformation framework for analytics.
 - **Apache Airflow**: Workflow automation and orchestration.
 - **Python**: Scripting and automation.
