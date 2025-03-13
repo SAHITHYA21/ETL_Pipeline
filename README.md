@@ -72,7 +72,6 @@ snowflake:
 Run the following commands to test the connection, execute transformations, and validate the data:
 
 ```sh
-Copy
 dbt debug  # Check connection
 dbt run    # Run transformations
 dbt test   # Validate data
@@ -82,7 +81,6 @@ dbt test   # Validate data
 Initialize the Airflow database and start the scheduler and webserver:
 
 ```sh
-Copy
 airflow db init
 airflow webserver & airflow scheduler
 ```
@@ -108,7 +106,6 @@ ELT_Pipeline/
 ## Docker Deployment
 If you prefer to use Docker for containerized deployment, ensure Docker is installed and run the following commands:
 ```sh
-Copy
 docker build -t elt_pipeline .
 docker-compose up
 ```
